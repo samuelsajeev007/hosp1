@@ -133,3 +133,5 @@ MEDIA_ROOT=BASE_DIR/'uploads'
 MEDIA_URL='/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+ADMIN_SITE_HEADER = "Hospital Administration"
