@@ -135,3 +135,4 @@ MEDIA_URL='/media/'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 ADMIN_SITE_HEADER = "Hospital Administration"
+ADMIN_SITE_TITLE = "Hospital"
