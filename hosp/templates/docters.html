@@ -8,10 +8,11 @@
 <div class="container text-center bg-light">
     {%for d in doc%}
 
-    <h1>Docname</h1>
+    
+    
 
     <div class="card text-center mx-3 my-3" style="width: 18rem; display: inline-block;">
-         <img src='{{d.doc_img.url}}'
+         <img src='{{d.doc_img.url}}'style="height: 300px;"
             class="card-img-top" alt="docimage">
         <div class="card-body">
 
@@ -22,7 +23,7 @@
 
             <h6>Department</h6>
             <p class="card-text">{{d.dep_name}}</p>
-
+        </div>
         </div>
         {%endfor%}
     </div>

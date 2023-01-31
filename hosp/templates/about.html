@@ -1,5 +1,97 @@
 {%extends 'base.html'%}
 {%block title%}About{%endblock%}
 {%block content%}
-<h1>haai</h1>
-{%endblock%}
+{%load static%}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+    <link rel="stylesheet" href="{%static '/css/about.css' %}">
+</head>
+
+<body>
+
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+					Care With Love
+				</h1>
+				
+				<p class="text-small">
+					
+City hospital, founded in 1956, as a charitable institution, is the living expression of the apostolic concern and social responsibility of the Archdiocese of Ernakulam-Angamaly. The hospital, as the premier project of Lisie Medical Institutions, a registered charitable organization, is owned and managed by the Archdiocese. It is situated in the heart of the City of Kochi.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language.
+					It was initially developed by Dennis
+					Ritchie as a system programming
+					language to write operating system.
+					The main features of C language include
+					low-level access to memory, simple set
+					of keywords, and clean style, these
+					features make C language suitable for
+					system programming like operating system
+					or compiler development.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
+
+			<p class="sectionSubTag text-small">
+				Java has been one of the most
+				popular programming language
+				for many years. Java is Object
+				Oriented. However it is not
+				considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
+
+
+		</div>
+
+		<div class="thumbnail">
+			<img src="img.png" alt="laptop image">
+		</div>
+	</section>
+
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
+
+
+	</footer> -->
+</body>
+
+</html>
+
+
+{% endblock %}
